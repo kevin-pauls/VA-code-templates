@@ -1,0 +1,113 @@
+## Review Snippet ##
+<blockquote cite="https://g.co/kgs/5db829">
+  <p><em>“Visiting Angels has been assisting my father-in-law for 5 years with his caregiving experience and it has been fulfilling and nothing short of wonderful. God Blessing Visting Angel staff.”</em></p>
+  <footer>—Humphrey M, <cite>Google Review</cite></footer>
+</blockquote>
+
+## Service Page Schema Sample ##
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Visiting Angels Catawba Valley",
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Todd O" },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Excellent. If there was a rating better than 5 stars, they would deserve it. The office staff went out of their way to assist me with my needs and made the process very easy. Very nice to deal with. The CNA they sent to my residence was very professional, very loving caring, and compassionate with the care she provided to my mom. She went over and beyond what I was expecting with the service. They certainly lived up to their name 'Angels'. Very nice to deal with and very professional. I highly recommend this service. I have recommended Visiting Angels to my friends and relatives. I suggest you do the same. You won't be disappointed. I guarantee it."
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1822 Hickory Blvd",
+        "addressLocality": "Lenoir",
+        "addressRegion": "NC",
+        "postalCode": "28645",
+        "addressCountry": "USA"
+      },
+      "telephone": "+18285724300",
+      "url": "https://www.visitingangels.com/catawbavalley/home",
+      "image": "https://cdn.visitingangels.com/images/VA_Logo.svg",
+      "priceRange": "$$",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Visiting Angels"
+      }
+    },
+    "serviceType": "Personal Care",
+    "areaServed": [
+      "Lenoir, NC",
+      "Hickory, NC",
+      "Morganton, NC",
+      "Sawmills, NC",
+      "Rhodhiss, NC",
+      "Northlakes, NC",
+      "Granite Falls, NC",
+      "Hudson, NC",
+      "Cajah's Mountain, NC",
+      "St Stephens, NC",
+      "Claremont, NC",
+      "Catawba, NC",
+      "Caldwell County, NC",
+      "Burke County, NC",
+      "Catawba County, NC",
+      "Alexander County, NC"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Personal Care Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Elderly Home Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Respite Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Dementia Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Alzheimer's Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Social Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "End Of Life Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "After Hostpital Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fall Prevention Services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Companion Care" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "Long Distance Care" }
+        }
+      ]
+    }
+  }
+</script>
